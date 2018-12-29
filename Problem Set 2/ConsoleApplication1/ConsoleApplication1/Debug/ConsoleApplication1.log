@@ -1,0 +1,7 @@
+﻿  Source.cpp
+e:\school\homework\cps 265\problem set 2\consoleapplication1\consoleapplication1\source.cpp(18): error C2065: 'a': undeclared identifier
+e:\school\homework\cps 265\problem set 2\consoleapplication1\consoleapplication1\source.cpp(20): error C2563: mismatch in formal parameter list
+e:\school\homework\cps 265\problem set 2\consoleapplication1\consoleapplication1\source.cpp(20): error C2568: '<': unable to resolve function overload
+  e:\school\homework\cps 265\problem set 2\consoleapplication1\consoleapplication1\source.cpp(20): note: could be 'size_t std::size(const _Ty (&)[_Size]) noexcept'
+  e:\school\homework\cps 265\problem set 2\consoleapplication1\consoleapplication1\source.cpp(20): note: or       'unknown-type std::size(const _Container &)'
+e:\school\homework\cps 265\problem set 2\consoleapplication1\consoleapplication1\source.cpp(22): error C2065: 'a': undeclared identifier

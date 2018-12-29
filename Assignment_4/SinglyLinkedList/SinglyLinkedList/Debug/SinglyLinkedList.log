@@ -1,0 +1,39 @@
+﻿  mainFile.cpp
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedlisth.h(8): error C3646: 'getNext': unknown override specifier
+  e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedlisth.h(13): note: see reference to class template instantiation 'SNode<E>' being compiled
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedlisth.h(8): error C2059: syntax error: ')'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedlisth.h(8): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedlisth.h(12): error C2059: syntax error: '<'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedlisth.h(12): error C2238: unexpected token(s) preceding ';'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedlisth.h(32): error C2989: 'SLinkedList': class template has already been declared as a non-class template
+  e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedlisth.h(12): note: see declaration of 'SLinkedList'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedlisth.h(15): error C3857: 'SLinkedList': multiple template parameter lists are not allowed
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(2): error C2988: unrecognizable template declaration/definition
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(2): error C2059: syntax error: '<'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(6): error C2143: syntax error: missing ';' before '{'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(6): error C2447: '{': missing function header (old-style formal list?)
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(11): error C2988: unrecognizable template declaration/definition
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(11): error C2143: syntax error: missing ';' before '<'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(11): error C2059: syntax error: '<'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(16): error C2143: syntax error: missing ';' before '{'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(16): error C2447: '{': missing function header (old-style formal list?)
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(21): error C2988: unrecognizable template declaration/definition
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(21): error C2143: syntax error: missing ';' before '<'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(21): error C2182: 'SLinkedList': illegal use of type 'void'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(21): error C2040: 'SLinkedList': 'int' differs in levels of indirection from 'const E &'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(21): error C2059: syntax error: '<'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(33): error C2143: syntax error: missing ';' before '{'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(33): error C2447: '{': missing function header (old-style formal list?)
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(47): error C2988: unrecognizable template declaration/definition
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(47): error C2143: syntax error: missing ';' before '<'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(47): error C2182: 'SLinkedList': illegal use of type 'void'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(47): error C2040: 'SLinkedList': 'int' differs in levels of indirection from 'const E &'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(47): error C2059: syntax error: '<'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(54): error C2448: 'tail': function-style initializer appears to be a function definition
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(59): error C2988: unrecognizable template declaration/definition
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(59): error C2143: syntax error: missing ';' before '<'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\singlylinkedimplementation.template(59): error C2059: syntax error: '<'
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\mainfile.cpp(7): error C2065: 'SinglyLinkedList': undeclared identifier
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\mainfile.cpp(7): error C2988: unrecognizable template declaration/definition
+e:\school\homework\cps 265\assignment_4\singlylinkedlist\singlylinkedlist\mainfile.cpp(7): error C2143: syntax error: missing ';' before '}'

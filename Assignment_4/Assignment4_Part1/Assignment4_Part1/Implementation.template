@@ -1,0 +1,78 @@
+template <typename T>
+ArrayImp<T>::ArrayImp(){
+	dArray = new T[0];
+}
+template <class T>
+int ArrayImp<T>::check(T num){
+	for (int i = 0; i < size; i++){
+		if (dArray[i] == num){
+			return i;
+		}
+	}
+	return -1;
+}
+template <class T>
+void ArrayImp<T>::addNumber(T num){
+	if (check(num) == -1){
+		T *tmpA;
+		size++;
+		tmpA = new T[size];
+		for (int i = 0; i < (size - 1); i++){
+			tmpA[i] = dArray[i];
+		}
+		tmpA[size - 1] = num;
+		delete[] dArray;
+		dArray = tmpA;
+	}
+}
+template <class T>
+void ArrayImp<T>::removeNumber(T num){
+	if (check(num) != -1){
+		T *tmpA;
+		size--;
+		tmpA = new T[size];
+		int j = 0;
+		for (int i = 0; i < (size + 1); i++){
+			if (dArray[i] != num){
+				tmpA[j] = dArray[i];
+				j++;
+			}
+		}
+		delete[] dArray;
+		dArray = tmpA;
+	}
+}
+template <class T>
+void ArrayImp<T>::output(){
+	cout << endl;
+	for (int i = 0; i < size; i++){
+		cout << dArray[i] << " ";
+	}
+	cout << endl;
+
+}
+template <class T>
+ArrayImp<T>::ArrayImp(const ArrayImp<T>& vA){
+	size = vA.size;
+	dArray = new int[size];
+	for (int i = 0; i < size; i++){
+		dArray[i] = vA.dArray[i];
+	}
+}
+template <class T>
+ArrayImp<T>& ArrayImp<T>::operator=(const ArrayImp<T>& vA){
+	if (this != &vA){
+		size = vA.size;
+		delete[] dArray;
+		dArray = new T[size];
+		for (int i = 0; i < size; i++){
+			dArray[i] = vA.dArray[i];
+		}
+	}
+	return *this;
+
+}
+template <typename T>
+ArrayImp<T>::~ArrayImp(){
+	delete[] dArray;
+};

@@ -1,0 +1,4 @@
+﻿  Lottery.cpp
+e:\school\homework\cps 265\problem set 1\lab6_lottery\lab6_lottery\lottery.cpp(24): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
+  Lab6_Lottery.vcxproj -> E:\School\HomeWork\CPS 265\Problem Set 1\Lab6_Lottery\Debug\Lab6_Lottery.exe
+  Lab6_Lottery.vcxproj -> E:\School\HomeWork\CPS 265\Problem Set 1\Lab6_Lottery\Debug\Lab6_Lottery.pdb (Full PDB)

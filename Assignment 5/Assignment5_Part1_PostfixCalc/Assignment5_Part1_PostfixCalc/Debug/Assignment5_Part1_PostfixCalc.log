@@ -1,0 +1,7 @@
+﻿  Postfix_Calc_Driver.cpp
+  Postfix_Calc.cpp
+e:\school\homework\cps 265\assignment 5\assignment5_part1_postfixcalc\assignment5_part1_postfixcalc\postfix_calc.cpp(11): warning C4018: '<': signed/unsigned mismatch
+e:\school\homework\cps 265\assignment 5\assignment5_part1_postfixcalc\assignment5_part1_postfixcalc\postfix_calc.cpp(31): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+  Generating Code...
+  Assignment5_Part1_PostfixCalc.vcxproj -> E:\School\HomeWork\CPS 265\Assignment 5\Assignment5_Part1_PostfixCalc\Debug\Assignment5_Part1_PostfixCalc.exe
+  Assignment5_Part1_PostfixCalc.vcxproj -> E:\School\HomeWork\CPS 265\Assignment 5\Assignment5_Part1_PostfixCalc\Debug\Assignment5_Part1_PostfixCalc.pdb (Full PDB)

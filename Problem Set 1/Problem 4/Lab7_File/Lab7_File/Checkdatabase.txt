@@ -1,0 +1,5 @@
+date:	10/13/2013
+name:	Saleh Alnaeli
+amount, dollars: 99
+cents: 03
+payee: kent State
